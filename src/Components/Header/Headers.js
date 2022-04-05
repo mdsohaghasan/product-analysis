@@ -6,7 +6,7 @@ import './Headers.css';
 export default function Headers() {
     return (
         <div>
-            <h2>home page amamr</h2>
+            <h1>This Is Home Pages</h1>
 
             {/* <div className='fs-1 fw-bold '>
                 <h2 class="">Choose Your Leptop</h2>

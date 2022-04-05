@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
+
 
 export default function Reviews() {
     return (
         <div>
-                <h1>Reviews Section</h1>
+            <Navbar></Navbar>
+            <h1>This Is Reviews Pages</h1>
             {/* <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
