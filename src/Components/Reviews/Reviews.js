@@ -1,12 +1,16 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
+import ReviewHook from './ReviewsHook'
 
 
 export default function Reviews() {
     return (
         <div>
             <Navbar></Navbar>
+            
             <h1>This Is Reviews Pages</h1>
+            <ReviewHook></ReviewHook>
+
             {/* <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
