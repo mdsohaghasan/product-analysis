@@ -11,48 +11,45 @@ import {
 
 const data = [
   {
-    name: "Page A",
-    uv: 4000,
-    pv: 2400,
-    amt: 2400
+      "month": "Mar",
+      "investment": 100000,
+      "sell": 241,
+      "revenue": 10401
   },
   {
-    name: "Page B",
-    uv: 3000,
-    pv: 1398,
-    amt: 2210
+      "month": "Apr",
+      "investment": 200000,
+      "sell": 423,
+      "revenue": 24500
   },
   {
-    name: "Page C",
-    uv: 2000,
-    pv: 9800,
-    amt: 2290
+      "month": "May",
+      "investment": 500000,
+      "sell": 726,
+      "revenue": 67010
   },
   {
-    name: "Page D",
-    uv: 2780,
-    pv: 3908,
-    amt: 2000
+      "month": "Jun",
+      "investment": 500000,
+      "sell": 529,
+      "revenue": 40405
   },
   {
-    name: "Page E",
-    uv: 1890,
-    pv: 4800,
-    amt: 2181
+      "month": "Jul",
+      "investment": 600000,
+      "sell": 601,
+      "revenue": 50900
   },
   {
-    name: "Page F",
-    uv: 2390,
-    pv: 3800,
-    amt: 2500
-  },
-  {
-    name: "Page G",
-    uv: 3490,
-    pv: 4300,
-    amt: 2100
+      "month": "Aug",
+      "investment": 700000,
+      "sell": 670,
+      "revenue": 61000
   }
-];
+]
+
+
+
 
 export default function AreaChert() {
   return (
@@ -68,10 +65,10 @@ export default function AreaChert() {
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" />
+      <XAxis dataKey="month" />
       <YAxis />
       <Tooltip />
-      <Area type="monotone" dataKey="uv" stroke="#8884d8" fill="#8884d8" />
+      <Area type="monotone" dataKey="investment" stroke="#8884d8" fill="#8884d8" />
     </AreaChart>
   );
 }
