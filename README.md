@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+## netlify live link https://product-analysis-website-mdsohaghasan.netlify.app/
+
+## Leptop Shop International 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
