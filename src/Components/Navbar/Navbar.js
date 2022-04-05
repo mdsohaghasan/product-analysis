@@ -6,7 +6,7 @@ export default function Navbar() {
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <Link to="/" class="navbar-brand">Navbar</Link>
+                    <Link to="/" class="navbar-brand">Leptop Shop International</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
